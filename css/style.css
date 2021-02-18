@@ -1,0 +1,38 @@
+*,
+html {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  text-align: center;
+  opacity: 0.9;
+  font-size: 2rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 7rem;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  width: 100%;
+}
+.nav__link:visited,
+.nav__link:link,
+.nav__link:active {
+  color: seashell;
+  font-size: 2rem;
+  margin-right: 2rem;
+  text-decoration: underline;
+}
+
+header img {
+  height: 5rem;
+  margin-left: 1rem;
+}
