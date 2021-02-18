@@ -97,3 +97,34 @@ figure img {
   width: 30rem;
   height: auto;
 }
+
+/* Location */
+
+.section-location {
+  margin: 0 auto;
+  background-image: url("../img/img-locations-background.webp");
+  background-size: cover;
+  height: 50rem;
+  width: 120rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-location__addresses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-location__address {
+  width: 30rem;
+  height: 30rem;
+  background-color: black;
+  margin: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
