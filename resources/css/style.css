@@ -14,6 +14,21 @@ body {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+h4 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+h5 {
+  font-size: 2rem;
+  margin: 2rem auto;
+}
+
 /* Header section */
 
 header {
@@ -64,16 +79,6 @@ header img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-}
-
-h2 {
-  font-size: 3rem;
-  margin-top: 2rem;
-}
-
-h4 {
-  font-size: 2rem;
-  margin: 2rem 0;
 }
 
 /* Tea of the month */
@@ -127,4 +132,22 @@ figure img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Contact */
+
+.contact {
+  width: 100%;
+  margin: 5rem auto;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+}
+
+footer h5 {
+  float: left;
+  margin: 3rem 2rem;
 }
